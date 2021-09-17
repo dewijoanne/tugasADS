@@ -1,0 +1,9 @@
+SET left to first character
+SET right to last character
+WHILE left < right
+   compare left with right
+   IF left character = right character
+   RETURN TRUE
+ELSE
+RETURN FALSE
+ENDWHILE

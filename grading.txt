@@ -1,0 +1,13 @@
+SET nilaiAwal = 84
+
+IF nilaiAwal is divisible by 5 AND < 3 nilaiAtas
+  nilaiAwal rounded to nilaiAtas
+  OUTPUT nilaiAwal as nilaiAkhir
+ENDIF
+
+IF nilaiAwal < 70
+   OUTPUT nilaiAwal
+ENDIF
+
+
+   

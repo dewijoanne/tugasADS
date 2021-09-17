@@ -1,0 +1,19 @@
+STORE temperature with any INTEGER
+STORE type with any STRING
+
+IF type = fahrenheit
+    temperature substracts by 32 multiplies by five that was divided by nine
+OUTPUT temperature
+ENDIF
+
+IF type = kelvin
+    temperature substracts by 273.15
+OUTPUT temperature
+ENDIF
+
+IF type = celcius
+   temperature = temperature
+OUTPUT temperature
+ENDIF
+
+
